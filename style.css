@@ -1,0 +1,295 @@
+*,
+*::before,
+*::after {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    
+}
+
+.header-desktop a{
+
+    margin-left: 20px;
+    
+}
+
+.header-desktop .btn {
+    line-height: 48px;
+}
+
+
+@media (min-width: 800px) { 
+
+    .mobile-only {
+        display: none;
+    }
+
+    .desktop-only {
+        display: block;
+    }
+
+    .hero-section-desktop {
+        display: grid;
+    }
+
+   
+}
+
+.mobile {
+
+    /* display: none; */
+
+}
+
+.desktop {
+
+    display: none;
+ 
+}
+
+.hero-section.desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 72px;
+}
+
+.hero-section.desktop img {
+
+    width: 100%;
+
+}
+
+.hero-section.desktop h1 {
+
+    text-align: left;
+    font-size: 56px;
+    margin-bottom: 48px;
+    line-height: 1.25;
+   
+}
+
+.hero-section.desktop p {
+
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 48px;
+}
+
+
+.hero-section.desktop .btn {
+
+    text-align:left;
+    font-size: 32px;
+    line-height: 64px;
+    margin-bottom: 48px;
+
+}
+
+.hero-section.desktop .btn {
+    width: auto;
+}
+
+.mr-auto {
+
+    margin-right: auto;
+
+}
+
+a {
+
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+
+}
+
+a:hover {
+
+    color: black;
+
+}
+
+header {
+
+    background: white;
+    box-shadow: 0 0 4px 4px #ccc;
+    position: fixed;
+    width: 100%;
+
+}
+
+header nav {
+
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding: 0 2.6%;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+
+}
+
+header img {
+
+    height: 30px;
+
+}
+
+.btn {
+
+    color: white;
+    background: #174ea6;
+    padding: 0 24px;
+    font-size: 14px;
+    line-height: 36px;
+    border-radius: 2px;
+    letter-spacing: 0.75px;
+    font-weight: 300px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.btn:hover {
+
+    color: white;
+    background: #174ea6;
+
+}
+
+.gmail-logo-text {
+
+    font-size: 24px;
+    color: #666;
+    margin-left: 8px;
+    font-weight: 600;
+
+}
+
+footer {
+
+    margin: 32px 16px;
+    background: #f8f8f8;
+
+}
+
+footer ul {
+
+    display: flex;
+    list-style: none;
+
+}
+
+footer li {
+
+    margin-right : 16px;
+
+}
+
+.help-icon {
+    color: white;
+    font-weight: 600;
+    background: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 99px;
+    margin-right: 8px;
+}
+
+.experience-gmail-section img{
+
+    height: 48px;
+    justify-content: center;
+
+}
+
+
+.devices-section,
+.hero-section,
+.avoid-suspicious-emails-section,
+.never-drop-ball-section,
+.stay-organised-section {
+
+    background: #f8f8f8;
+
+}
+
+.get-gmail-section  {
+    margin: 28px 0 ;
+}
+
+.get-gmail-section img{
+     height: 72px;
+}
+
+.get-gmail-section .btn {
+     line-height: 42px;
+}
+
+.experience-gmail-section img {
+    height: 48px;
+}
+
+.m4 {
+    margin: 20px 40px;
+}
+
+.devices-section {
+    width: 100%;
+}
+
+p {
+    margin: 12px;
+    text-align: center;
+}
+
+.mobile-only{
+
+    
+}
+
+.desktop-only {
+
+    display: block;
+
+}
+
+.header-mobile {
+    position: fixed;
+}
+
+.header-desktop {
+
+    position: fixed;
+
+}
+
+.header-desktop a{
+    margin-left: 20px;
+}
+
+.header-desktop .btn {
+    line-height: 48px;
+}
+
+.take-action-section-desktop {
+    display: flex;
+    flex-direction: row;
+}
+
+.take-action-section-desktop .column {
+    width: 45%;
+}
+
+.take-action-section-desktop img {
+    width: 45%;
+}
+
+section p, section h2 {
+    text-align: left;
+}
